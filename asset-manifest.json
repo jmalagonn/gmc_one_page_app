@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gmc_one_page_app/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/gmc_one_page_app/static/js/main.ad1602f5.chunk.js",
+    "main.js.map": "/gmc_one_page_app/static/js/main.ad1602f5.chunk.js.map",
+    "runtime-main.js": "/gmc_one_page_app/static/js/runtime-main.f13fed36.js",
+    "runtime-main.js.map": "/gmc_one_page_app/static/js/runtime-main.f13fed36.js.map",
+    "static/js/2.4ff60edb.chunk.js": "/gmc_one_page_app/static/js/2.4ff60edb.chunk.js",
+    "static/js/2.4ff60edb.chunk.js.map": "/gmc_one_page_app/static/js/2.4ff60edb.chunk.js.map",
+    "static/js/3.ac684969.chunk.js": "/gmc_one_page_app/static/js/3.ac684969.chunk.js",
+    "static/js/3.ac684969.chunk.js.map": "/gmc_one_page_app/static/js/3.ac684969.chunk.js.map",
+    "index.html": "/gmc_one_page_app/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/gmc_one_page_app/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.4ff60edb.chunk.js.LICENSE.txt": "/gmc_one_page_app/static/js/2.4ff60edb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/gmc_one_page_app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f13fed36.js",
+    "static/js/2.4ff60edb.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.ad1602f5.chunk.js"
+  ]
+}
