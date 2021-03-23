@@ -1,0 +1,11 @@
+:root {
+    --main-green: #00681b;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--main-green);
+}
+
+a{
+    text-decoration: none;
+}
