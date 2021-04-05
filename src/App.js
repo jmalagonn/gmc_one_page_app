@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import Clients from './components/Clients';
+import SwiperClients from './components/Swiper-clients';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/main.css';
@@ -16,7 +17,9 @@ function App() {
       <AboutUs />
       <Services />
       <Projects />
-      <Clients />
+      <Clients>
+        <SwiperClients />
+      </Clients>
       <Footer />
     </div>
   );

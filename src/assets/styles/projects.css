@@ -1,6 +1,7 @@
 .project-card--container{
     position: relative;
     border-radius: 1rem;
+    margin-top: 1rem;
 }
 
 .project-card--content{

@@ -1,4 +1,5 @@
 import React from "react";
+
 import '../assets/styles/nav.css';
 import Logo from '../assets/images/Logo GMC.svg'
 
@@ -8,7 +9,7 @@ const Header = () => (
       <div className="nav-menu--image">
         <img src={Logo} alt="GMC Refrigeración" />
       </div>
-      <div className="nav-menu--list">
+      <div className="d-none d-lg-block nav-menu--list">
         <ul className="list-inline">
           <li className="list-inline-item">
             <a href="#">Nosotros</a>

@@ -1,14 +1,14 @@
 import React from 'react';
 
 const AboutUs = () => (
-    <section class="nosotros">
-      <div class="container">
-        <div class="row mt-5 justify-content-center">
-          <div class="col-12">
-            <h2 class="text-center">NOSOTROS</h2>
+    <section className="nosotros">
+      <div className="container">
+        <div className="row mt-5 justify-content-center">
+          <div className="col-12">
+            <h2 className="text-center">NOSOTROS</h2>
           </div>
-          <div class="col-lg-8 col-lg-10">
-            <p class="text-center mt-3">
+          <div className="col-lg-8 col-lg-10">
+            <p className="text-center mt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               viverra pellentesque pretium. Donec faucibus ipsum vitae augue
               molestie, ac ultricies lacus dapibus. Maecenas quis molestie odio.
