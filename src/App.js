@@ -1,27 +1,22 @@
-import Header from './components/Header';
-import Hero from './components/Hero';
-import AboutUs from './components/AboutUs';
-import Services from './components/Services';
-import Projects from './components/Projects';
-import Clients from './components/Clients';
-import SwiperClients from './components/Swiper-clients';
-import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/styles/main.css';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import Home from "./pages/home";
+import Project from "./pages/project";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/styles/main.css";
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <Hero />
-      <AboutUs />
-      <Services />
-      <Projects />
-      <Clients>
-        <SwiperClients />
-      </Clients>
-      <Footer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/gmc_one_page_app">
+          <Home />
+        </Route>
+        <Route path="/gmc_one_page_app/proyecto/:id" children={<Project />} />
+      </Switch>
+    </Router>
   );
 }
 

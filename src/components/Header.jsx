@@ -9,7 +9,7 @@ const Header = () => (
       <div className="nav-menu--image">
         <img src={Logo} alt="GMC Refrigeración" />
       </div>
-      <div className="d-none d-lg-block nav-menu--list">
+      <div className="d-none d-lg-flex nav-menu--list">
         <ul className="list-inline">
           <li className="list-inline-item">
             <a href="#">Nosotros</a>
