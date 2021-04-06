@@ -23,6 +23,10 @@
   justify-content: flex-end;
 }
 
+.nav-menu--image a {
+  display: inherit;
+}
+
 .nav-menu--image img {
   width: 15rem;
   height: 100%;

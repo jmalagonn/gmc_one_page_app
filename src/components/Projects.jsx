@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../assets/styles/projects.css';
 
 const Projects = () => (
@@ -24,7 +26,7 @@ const Projects = () => (
                   Pricesmart calle 170
                 </p>
                 <div className="project-card--content-button">
-                  <a href="#">Ver más</a>
+                  <Link to={`/${process.env.REACT_APP_URL}/proyecto/1`}>Ver más</Link>
                 </div>
               </div>
             </div>

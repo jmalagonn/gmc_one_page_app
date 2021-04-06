@@ -11,10 +11,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/gmc_one_page_app">
+        <Route exact path={`/${process.env.REACT_APP_URL}`}>
           <Home />
         </Route>
-        <Route path="/gmc_one_page_app/proyecto/:id" children={<Project />} />
+        <Route path={`/${process.env.REACT_APP_URL}/proyecto/:id`} children={<Project />} />
       </Switch>
     </Router>
   );

@@ -1,9 +1,9 @@
 import React from 'react';
 
 const AboutUs = () => (
-    <section className="nosotros">
+    <section className="nosotros mt-5" id="nosotros">
       <div className="container">
-        <div className="row mt-5 justify-content-center">
+        <div className="row justify-content-center">
           <div className="col-12">
             <h2 className="text-center">NOSOTROS</h2>
           </div>

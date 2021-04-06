@@ -3,10 +3,22 @@
     --lightest-green: #76ee94;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: var(--main-green);
 }
 
 a{
     text-decoration: none;
+}
+
+main {
+    margin-top: 4rem;
+}
+
+.bg--main-green {
+    background-color: var(--main-green);
 }
